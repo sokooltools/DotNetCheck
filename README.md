@@ -1,2 +1,2 @@
-"# DotNetCheck" 
-Shows all the versions of DotNet currently installed on this computer.
+# DotNetCheck
+Opens a dialog box showing all versions of DotNet currently installed on this computer.

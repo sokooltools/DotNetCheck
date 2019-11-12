@@ -1,0 +1,60 @@
+Build started 11/12/2019 11:17:57 AM.
+__________________________________________________
+Project "C:\Users\rs69287\Documents\Visual Studio 2019\DevTools\DotNetCheck\DotNetCheck.sln" (default targets):
+
+Target ValidateSolutionConfiguration:
+    Building solution configuration "Release|x86".
+Target Build:
+    __________________________________________________
+    Project "C:\Users\rs69287\Documents\Visual Studio 2019\DevTools\DotNetCheck\DotNetCheck.sln" is building "C:\Users\rs69287\Documents\Visual Studio 2019\DevTools\DotNetCheck\DotNetCheck.csproj" (default targets):
+
+    Target CoreResGen:
+        Processing resource file "Form1.resx" into "obj\x86\Release\DotNetCheck.Form1.resources".
+        Processing resource file "Properties\Resources.resx" into "obj\x86\Release\DotNetCheck.Properties.Resources.resources".
+    Target GenerateTargetFrameworkMonikerAttribute:
+      Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+    Target CoreCompile:
+        C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Roslyn\csc.exe /noconfig /nowarn:1701,1702 /nostdlib+ /platform:x86 /errorreport:prompt /warn:4 /define:TRACE /main:DotNetCheck.Program /highentropyva+ /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\mscorlib.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Core.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Drawing.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Windows.Forms.dll" /debug:pdbonly /filealign:512 /optimize+ /out:obj\x86\Release\DotNetCheck.exe /ruleset:"C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Team Tools\Static Analysis Tools\\Rule Sets\MinimumRecommendedRules.ruleset" /subsystemversion:6.00 /resource:obj\x86\Release\DotNetCheck.Form1.resources /resource:obj\x86\Release\DotNetCheck.Properties.Resources.resources /target:winexe /utf8output /langversion:7.3 Form1.cs Form1.Designer.cs Program.cs Properties\AssemblyInfo.cs Properties\Resources.Designer.cs Properties\Settings.Designer.cs "C:\Users\rs69287\AppData\Local\Temp\.NETFramework,Version=v4.5.2.AssemblyAttributes.cs"
+        Using shared compilation with compiler from directory: C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Roslyn
+    Target _CopyAppConfigFile:
+      Skipping target "_CopyAppConfigFile" because all output files are up-to-date with respect to the input files.
+    Target CopyFilesToOutputDirectory:
+        Copying file from "C:\Users\rs69287\Documents\Visual Studio 2019\DevTools\DotNetCheck\obj\x86\Release\DotNetCheck.exe" to "C:\Users\rs69287\Documents\Visual Studio 2019\DevTools\DotNetCheck\bin\DotNetCheck.exe".
+        DotNetCheck -> C:\Users\rs69287\Documents\Visual Studio 2019\DevTools\DotNetCheck\bin\DotNetCheck.exe
+        Copying file from "C:\Users\rs69287\Documents\Visual Studio 2019\DevTools\DotNetCheck\obj\x86\Release\DotNetCheck.pdb" to "C:\Users\rs69287\Documents\Visual Studio 2019\DevTools\DotNetCheck\bin\DotNetCheck.pdb".
+    Target IncrementalClean:
+        Deleting file "C:\Users\rs69287\Documents\Visual Studio 2019\DevTools\DotNetCheck\obj\x86\Release\DotNetCheck.csproj.CoreCompileInputs.cache".
+    Target PostBuildEvent:
+        "%DOCUMENTS%\Visual Studio 2019\DevTools\Postbuild.bat" "Release" "C:\Users\rs69287\Documents\Visual Studio 2019\DevTools\DotNetCheck\" "DotNetCheck" "C:\Users\rs69287\Documents\Visual Studio 2019\DevTools\DotNetCheck\bin\" "DotNetCheck"
+        
+        
+        +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+        BEGIN [DotNetCheck] Post-Build
+        - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+        
+        ======================================================================================
+        = List of local variables.
+        ======================================================================================
+        Configuration =	Release
+        SolutionDir   =	C:\Users\rs69287\Documents\Visual Studio 2019\DevTools\DotNetCheck\
+        ProjectDir    =	C:\Users\rs69287\Documents\Visual Studio 2019\DevTools\
+        ProjectName   =	DotNetCheck
+        TargetDir     =	C:\Users\rs69287\Documents\Visual Studio 2019\DevTools\DotNetCheck\bin\
+        TargetName    =	DotNetCheck
+        TargetPath    =	C:\Users\rs69287\Documents\Visual Studio 2019\DevTools\DotNetCheck\bin\DotNetCheck
+        ======================================================================================
+        
+        
+        -- No 'Release' specific tasks required. --
+        
+        - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+        END [DotNetCheck] Post-Build
+        +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+        
+        
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.41
