@@ -1,2 +1,3 @@
 # DotNetCheck
-Opens a dialog box showing all versions of DotNet currently installed on this computer.
+
+When the application is launched a dialog box is shown containing all the versions of DotNet installed on this computer with the most current one being highlighted.
