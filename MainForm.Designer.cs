@@ -1,6 +1,6 @@
 ﻿namespace DotNetCheck
 {
-	sealed partial class Form1
+	sealed partial class MainForm
 	{
 		/// <summary>
 		/// Required designer variable.

@@ -1,3 +1,7 @@
 # DotNetCheck
 
-When the application is launched a dialog box is shown containing all the versions of DotNet installed on this computer with the most current one being highlighted.
+This is a MS Windows mini-application that when opened shows a window containing a list of all the versions of 
+Microsoft .Net currently installed on this computer with the latest version being highlighted in its
+own field.
+
+![Image1](Images/image1.png)
