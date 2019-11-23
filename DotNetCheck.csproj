@@ -46,6 +46,7 @@
     <Reference Include="System.Windows.Forms" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BusinessLogic.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
